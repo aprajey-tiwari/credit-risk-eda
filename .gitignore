@@ -1,0 +1,24 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary checkpoints
+.ipynb_checkpoints/
+
+# Local environment and editor files
+.venv/
+venv/
+.env
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local dataset files - keep raw data out of GitHub by default
+data/*.csv
+data/*.xls
+data/*.xlsx
+
+# Temporary virtual documents
+.virtual_documents/
